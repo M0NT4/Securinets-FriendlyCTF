@@ -1,0 +1,41 @@
+.bg1{
+   
+    background-image:url(./img/back1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+    
+}
+.bg2{
+    background-image:url(./img/back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center; 
+}
+.bg3{
+    background-image:url(./img/back3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.bg4{
+    background-image:url(./img/back4.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container-text{
+    
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background:rgba(228, 223, 223, 0.397);
+    border-radius: 20px;
+    padding: 50px;
+}
