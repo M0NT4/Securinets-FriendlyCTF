@@ -12,10 +12,10 @@ if ($final === $str){
 ```
 Here we have to submit the string **securinets_is_the_best** as input in the GET request to get the flag however the preg_replace() function replace our input to empty string :'( so how can we baypass this shit ??
 
->preg_replace() Perform a regular expression search and replace.
-Does preg_replace() replace recursively ?? 
+`preg_replace() Perform a regular expression search and replace.`
+Does it replace recursively ?? 
 Surely no !!
-So what if we inject our string into the same string for example we put it after 'is' : 
+So what if we inject our string into the same string ,for example we put it after 'is' : 
 securinets_is __securinets_is_the_best__ _the_best
 here preg_replace() will replace only only once and the final string will be **securinets_is_the_best_the_best**.
 
