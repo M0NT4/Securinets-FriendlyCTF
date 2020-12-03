@@ -19,10 +19,11 @@ This table summarizes the php loose comparaison logic :
 >It gets weirder... If PHP decides that both operands look like
 numbers, even if they are actually strings, it will convert them
 both and perform a numeric comparison:
-▪ TRUE: "0e12345" == "0e54321" \n
-▪ TRUE: "0e12345" <= "1"  \n
-▪ TRUE: "0e12345" == "0"  \n
-▪ TRUE: "0xF" == "15"  \n
+
+>▪ TRUE: "0e12345" == "0e54321" 
+>▪ TRUE: "0e12345" <= "1"  
+>▪ TRUE: "0e12345" == "0"  
+>▪ TRUE: "0xF" == "15"  
 
 So here we have to find md5 hash string starting with "0e" which make the comparison evaluate to true.
 just googling it we can find many magic hashes .[link](https://github.com/spaze/hashes/blob/master/md5.md)
