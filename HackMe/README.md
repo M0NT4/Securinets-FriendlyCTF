@@ -18,4 +18,6 @@ Surely no !!
 So what if we inject our string into the same string for example we put it after 'is' : 
 securinets_is __securinets_is_the_best__ _the_best
 here preg_replace() will replace only only once and the final string will be **securinets_is_the_best_the_best**.
+
+
 ![Solve](https://user-images.githubusercontent.com/61760291/101042599-a7f57e80-357d-11eb-8a0d-bb618d67d766.png)
