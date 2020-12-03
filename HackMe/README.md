@@ -16,7 +16,8 @@ Here we have to submit the string **securinets_is_the_best** as input in the GET
 Does it replace recursively ?? 
 Surely no !!
 So what if we inject our string into the same string ,for example we put it after 'is' : 
-securinets_is __securinets_is_the_best__ _the_best
+securinets_is **securinets_is_the_best** _the_best
+
 here preg_replace() will replace only only once and the final string will be **securinets_is_the_best_the_best**.
 
 
