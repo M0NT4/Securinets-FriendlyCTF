@@ -11,7 +11,9 @@ __exemple__ : `cmd1 ; cmd 2`
 so let's try `;`
 **127.0.0.1;ls** 
 >ls is a Linux shell command that lists directory contents.
+
 ![Screenshot at 2020-12-02 19-27-55](https://user-images.githubusercontent.com/61760291/100908820-3c070d80-34cc-11eb-95cf-d9beddeb775e.png)
+
 However,a new message was shown "hey Hacker u are in the right way just try to bypass my strong filter x_x"
 It seems `;` was filtered.
 We can try "&&" but it was filtered x_x.
