@@ -4,8 +4,8 @@
 >Command injection is an attack in which the goal is execution of arbitrary commands on the host operating system via a vulnerable application. Command injection attacks are possible when an application passes unsafe user supplied data (forms, cookies, HTTP headers etc.) to a system shell.
 
 ![task](https://user-images.githubusercontent.com/61760291/100906560-96529f00-34c9-11eb-9a65-6a04aa5c8cc9.png)
-the web app takes the input and executes a ping command in the server and returns the result if it's a valid command.
-Hmmm so what if trick it and try to run an other system command.
+the web app takes the input and executes a ping command in the server and returns the result if it's a valid command!!
+so what if we trick it by trying to run an other system command.
 In linux systems there is many methods to run multiple commands in one line with `;`, `&&` and `||`.
 __exemple__ : `cmd1 ; cmd 2`
 so let's try `;`
