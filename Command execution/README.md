@@ -21,6 +21,6 @@ We can try "&&" but it was filtered x_x .
 
 The final payload is **blabla||cat /flag.txt**
 
-![Solve](https://user-images.githubusercontent.com/61760291/100911738-e6346480-34cf-11eb-9961-d59724149e2f.png)
+![Solve](https://user-images.githubusercontent.com/61760291/101358809-ac7ea780-389b-11eb-84b9-695017c97ba3.png)
 
 
