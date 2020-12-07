@@ -1,0 +1,28 @@
+version: "3.3"
+services:
+  web:
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    container_name: php73
+    depends_on:
+      - db
+    volumes:
+      - ./php:/var/www/html/
+    ports:
+      - 8094:80
+  db:
+    container_name: mysql8
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_DATABASE: db
+      MYSQL_USER: monta
+      MYSQL_PASSWORD: 9liwa
+      MYSQL_ROOT_PASSWORD: montaroot
+    volumes:
+      - container-volume:/var/lib/mysql
+      - ./db.sql:/docker-entrypoint-initdb.d/db.sql
+volumes:
+  container-volume:
