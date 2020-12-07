@@ -1,6 +1,7 @@
 # Easy SQLi (36 Solves)
 
 ![Task](https://user-images.githubusercontent.com/61760291/101360349-d46f0a80-389d-11eb-8a35-72ae45f5ba55.png)
+
 In this challenge we have a simple login form.
 It's a basic SQL injection task .
 first we can try the common payload **'or 1=1**
