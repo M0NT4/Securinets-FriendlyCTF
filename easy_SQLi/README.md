@@ -11,7 +11,8 @@ however it didn't work it seems there is a filter somewhere *_*.
 
 we need to bypassed it so we can use `||` instead of `or` and get our flag .
 
-![Solve](https://user-images.githubusercontent.com/61760291/101361671-9246c880-389f-11eb-8205-92ec69326114.png)
+![Screenshot at 2020-12-07 16-19-02](https://user-images.githubusercontent.com/61760291/101362147-071a0280-38a0-11eb-8033-ded0aa83acdf.png)
+
 
 
 
