@@ -27,7 +27,7 @@ both and perform a numeric comparison:
 
 So here we have to find md5 hash string starting with "0e" which make the comparison evaluate to true.
 just googling it we can find many magic hashes .[link](https://github.com/spaze/hashes/blob/master/md5.md)
-we can choose **240610708** and his md5 hash **0e462097431906509019562988736854**.
+we can choose **240610708** and its md5 hash **0e462097431906509019562988736854**.
 and then get the flag.
 
 ![Solve](https://user-images.githubusercontent.com/61760291/101070538-c9fdf980-359b-11eb-9883-3f4e702e0c7b.png)
