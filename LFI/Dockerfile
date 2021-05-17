@@ -1,12 +1,15 @@
-FROM ubuntu:19.10 
-RUN apt-get upgrade
-RUN apt-get update
-RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get -y install \
-    apache2 php7.3 libapache2-mod-php7.3
+FROM ubuntu:18.04
 
-COPY . /var/www/html/
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y \
+    apache2 \
+    php \
+    libapache2-mod-php
+    
 RUN rm /var/www/html/index.html
-RUN a2enmod php7.3
+COPY . /var/www/html/
+
+RUN a2enmod php7.2
 RUN a2enmod rewrite
 
 ENV APACHE_RUN_USER www-data
